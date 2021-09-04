@@ -1,0 +1,300 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); */
+
+@font-face {
+    font-family: 'Quicksand', sans-serif;
+    src:  url('../../font/qickstand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: expanded;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    background-color: rgb(240, 234, 234);
+}  
+
+a{
+    text-decoration: none !important;
+    color:#333;
+    transition: 0.3s;
+    display: block;
+}
+
+a:hover{
+    color: #5842E3 !important;
+}
+
+.invalid-feedback{
+
+    display: block !important;
+}
+
+.card{
+
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.auth-form{
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    border: none !important;
+    border-radius: 10px;
+}
+
+.auth-form a{
+
+   color: #333;
+   text-decoration: none !important;
+}
+
+.auth-form a:hover{
+
+    color: #5842E3;
+ }
+
+.btn{
+
+    padding: 10px 25px !important;
+}
+
+.btn-theme{
+
+    background-color: #5842E3 !important;
+    color: white;
+}
+
+.btn-theme:hover{
+
+    background-color: #5443c2 !important;
+    color: white;
+}
+
+/* header menu */
+
+
+.header-menu{
+
+    background:#fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 50;
+}
+
+.header-menu i{
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.header-menu p{
+    margin-bottom: 12px;
+  
+}
+
+
+
+/* content */
+
+.content{
+
+    margin-top:65px;
+    margin-bottom: 75px;
+}
+
+
+/* account */
+
+
+.account .profile img{
+
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.account .cursor{
+    cursor:pointer;
+}
+
+.account .logout:hover{
+
+    color: #5842E3;
+ }
+
+.swal2-popup{
+
+    border-radius: 10px !important;
+}
+
+.swal2-styled{
+
+    border-radius: 8px !important;
+}
+
+.swal2-title{
+
+    font-size: 22px !important;
+}
+
+.swal2-styled.swal2-confirm{
+
+    background-color: #5842E3 !important;
+}
+
+.update-password img{
+
+    width: 230px;
+}
+
+/* bottom menu */
+
+
+.bottom-menu{
+
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 50;
+}
+
+.bottom-menu a{
+    cursor: pointer;
+}
+
+
+.bottom-menu i{
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.bottom-menu p{
+    margin-bottom: 12px;
+  
+}
+
+.scan-tab{
+
+    width: 60px;
+    height: 60px;
+    background-color: #Ededf5;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 42px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.scan-tab .inside{
+
+    width: 52px;
+    height: 52px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    animation: glow 5s infinite;
+}
+
+@keyframes glow {
+    
+    0%{
+        box-shadow: 0 0 -10px #5842E3;
+    }
+
+   
+
+    40%{
+        box-shadow: 0 0 15px #5842E3;
+    }
+
+    60%{
+        box-shadow: 0 0 15px #5842E3;
+    }
+
+    
+
+    100%{
+        box-shadow: 0 0 -10px #5842E3;
+    }
+
+}
+
+
+.wallet .my-card{
+
+    background-color: #5842E3;
+    color: #fff;
+
+}
+
+.wallet .my-card span{
+
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #Ededf5;
+}
+
+
+.wallet .my-card h4{
+
+   font-size: 22px;
+   font-weight: 900px;
+}
+
+.wallet .my-card h4{
+
+    font-size: 20px;
+    font-weight: 900px;
+ }
+
+ .wallet .my-card p{
+
+    font-size: 18px;
+    font-weight: 900px;
+    text-transform: uppercase;
+ }
+
+/* home */
+
+.home .profile img{
+
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+
+    /* border: 1px solid #ddd; */
+    background-color: #fff;
+}
+
+.shortcut-box img{
+    width:25px;
+    height: 25px;
+    
+}
+
+/* transaction detail */
+
+.transaction-detail img{
+    width: 60px;
+}
+
+.noti-badge{
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    padding: 4px;
+    min-width: 0 !important;
+}
